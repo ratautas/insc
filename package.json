@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "test": "npx nx run-many --target=test --affected=true"
+    "test": "nx run-many --target=test --affected=true",
+    "test:affected": "nx affected:test",
+    "reset": "nx reset"
   },
   "private": true,
   "dependencies": {
