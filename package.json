@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "test": "nx run-many --target=test --affected=true",
-    "test:affected": "nx affected:test",
+    "test:affected": "nx affected:test --onlyChanged",
     "reset": "nx reset"
   },
   "private": true,

@@ -15,4 +15,6 @@ module.exports = {
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../../coverage/packages/packageA',
   // onlyChanged: true,
+  // changedSince: 'main',
+  // findRelatedTests: '...'
 };
