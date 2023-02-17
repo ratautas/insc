@@ -14,4 +14,5 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../../coverage/packages/packageB',
+  // onlyChanged: true,
 };
