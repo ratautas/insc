@@ -2,7 +2,9 @@
   "name": "insc",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "npx nx run-many --target=test --affected=true"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.4.11",
