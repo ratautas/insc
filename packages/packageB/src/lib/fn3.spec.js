@@ -1,10 +1,10 @@
-import { package3 } from './package3';
+import { fn3 } from './fn3';
 
 // const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-describe('package3', () => {
+describe('fn3', () => {
   it('should work', async () => {
     // await wait(3000);
-    expect(package3()).toEqual('package3');
+    expect(fn3()).toEqual('fn3');
   });
 });

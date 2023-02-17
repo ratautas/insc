@@ -1,31 +1,39 @@
 {
-  "name": "package1",
+  "name": "packageB",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/package1/src",
+  "sourceRoot": "packages/packageB/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nrwl/webpack:webpack",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
-        "outputPath": "dist/packages/package1",
-        "main": "packages/package1/src/index.js",
-        "tsConfig": "packages/package1/tsconfig.lib.json",
+        "outputPath": "dist/packages/packageB",
+        "main": "packages/packageB/src/index.js",
+        "tsConfig": "packages/packageB/tsconfig.lib.json",
         "assets": []
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["packages/package1/**/*.js"]
+        "lintFilePatterns": [
+          "packages/packageB/**/*.js"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
-        "jestConfig": "packages/package1/jest.config.js",
+        "jestConfig": "packages/packageB/jest.config.js",
         "passWithNoTests": true
       },
       "configurations": {

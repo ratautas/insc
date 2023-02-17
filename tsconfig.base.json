@@ -18,11 +18,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@insc/package1": [
-        "packages/package1/src/index.js"
+      "@insc/packageA": [
+        "packages/packageA/src/index.js"
       ],
-      "@insc/package3": [
-        "packages/package3/src/index.js"
+      "@insc/packageB": [
+        "packages/packageB/src/index.js"
       ]
     }
   },
